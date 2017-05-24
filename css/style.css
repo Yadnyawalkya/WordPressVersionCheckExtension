@@ -1,0 +1,171 @@
+html{
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    min-height: 100%;
+    margin: 10px;
+    height: auto;
+    width: 700px;
+    background-color: #ffffff;
+}
+.top-content{
+    border: none;
+    margin: 0;
+    width: 670px;
+    padding: 10px 10px 0 10px;
+    background-color: #ffffff;
+}
+
+.top-content .screen-shot{
+    display: inline-block;
+}
+
+.top-content .meta {
+    width: 220px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+}
+
+.top-content .meta .theme,
+.top-content .meta .author,
+.top-content .meta .theme-version,
+.top-content .meta .wp-version {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+
+.top-content .meta .theme a,
+.top-content .meta .theme a:visited,
+.top-content .meta .author a,
+.top-content .meta .author a:visited,
+.top-content .meta .theme-version p,
+.top-content .meta .wp-version p
+{
+    color: #47ade8;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    padding-top: 0;
+    height: auto;
+    text-decoration: none;
+}
+.top-content .meta .theme a:hover,
+.top-content .meta .theme a:active,
+.top-content .meta .theme a:focus,
+.top-content .meta .author a:hover,
+.top-content .meta .author a:active,
+.top-content .meta .author a:focus {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.top-content .meta .theme-version p,
+.top-content .meta .wp-version p {
+    display: inline-block;
+    margin: 0;
+}
+
+.top-content .meta .author span,
+.top-content .meta .theme-version span,
+.top-content .meta .wp-version span {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.top-content .meta .theme a.no-link:active,
+.top-content .meta .theme a.no-link:focus,
+.top-content .meta .theme a.no-link:hover,
+.top-content .meta .author a.no-link:active,
+.top-content .meta .author a.no-link:focus,
+.top-content .meta .author a.no-link:hover {
+    color: #47ade8;
+    text-decoration: none;
+    cursor: text;
+}
+
+.screen-shot a.no-link img{
+    border: 4px solid #47ade8;
+}
+
+.screen-shot a.no-link img:hover,
+.screen-shot a.no-link img:active,
+.screen-shot a.no-link img:focus {
+    border: 4px solid #0b94cc;
+}
+
+.screen-shot a img{
+    border: 4px solid #47ade8;
+}
+
+.screen-shot a img:hover{
+    border: 4px solid #ff0000;
+}
+
+.theme-info{
+    width: 670px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+}
+
+.theme-info .theme{
+    display: inline-block;
+}
+
+.theme-info .author{
+    display: inline-block;
+}
+
+.theme-info .version span{
+    display: inline-block;
+}
+
+.theme-info .version p{
+    display: inline-block;
+}
+
+.theme-info .version{
+    display: inline-block;
+}
+
+.theme-info .description{
+    width: 600px;
+    color: #47ade8;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: auto;
+}
+
+.theme-info .description a,
+.theme-info .description a:visited {
+    cursor: pointer;
+    color: #47ade8;
+    font-weight: 700;
+    text-decoration: none;
+}
+.theme-info .description a:hover,
+.theme-info .description a:active,
+.theme-info .description a:focus {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+.sh-content ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+}
+.sh-content ul li {
+    display: inline-block;
+}
